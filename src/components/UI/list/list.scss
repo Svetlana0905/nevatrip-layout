@@ -1,0 +1,19 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  &__list-item {
+    position: relative;
+    padding: 0 0 0 28px;
+  }
+  &__list-item::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 16px;
+    height: 16px;
+    top: 3px;
+    left: 0;
+    background: url("../../../assets/check-mark.svg") no-repeat;
+  }
+}

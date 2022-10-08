@@ -1,0 +1,49 @@
+@import "../../../styles/app.scss";
+
+.yellow-link-btn {
+  display: inline-block;
+  padding: 16px 42px;
+  margin-bottom: 0;
+  white-space: nowrap;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: $yellowButton;
+  color: $yellowButtonText;
+  border-radius: 23px;
+  text-decoration: none;
+  transition: background-color ease-in-out 0.2s;
+  &:active {
+    box-shadow: $shadowYellowButton;
+  }
+  &:focus,
+  &:hover {
+    background-color: #e8b705;
+    border-color: #e8b705;
+  }
+}
+.time-link-btn {
+  display: inline-block;
+  padding: 7px 13px;
+  max-height: 34px;
+  margin-bottom: 0;
+  white-space: nowrap;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: $blueButton;
+  color: $blueButtonText;
+  border-radius: 11px;
+  text-decoration: none;
+  transition: background-color ease-in-out 0.2s;
+  &:active {
+    box-shadow: 0px 2px 4px 0px #00000040;
+  }
+  &:focus,
+  &:hover {
+    background-color: $blueButtonFocus;
+    border-color: #e8b705;
+  }
+}

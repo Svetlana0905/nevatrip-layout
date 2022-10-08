@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import "./shared.scss";
+* {
+  padding: 0px;
+  margin: 0px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  cursor: pointer;
+  outline: none;
+}
+ul li {
+  list-style: none;
+}
+
+picture {
+  position: relative;
+  height: 100%;
+}
+body {
+  font-family: "Open Sans";
+}
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.subtitle {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  @media (min-width: 725px) {
+    font-size: 26px;
+    line-height: 34px;
+  }
+}
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  @media (min-width: 725px) {
+    font-size: 18px;
+  }
+}
+.small-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: $dark50;
+}
+.text-nowrap {
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+::-webkit-scrollbar-track {
+  background-color: $blue; /*Цвет скролла*/
+}
+::-webkit-scrollbar-thumb {
+  width: 2px;
+  border-radius: 2px; /*Закругление ползунка*/
+  background-color: $yellowButton; /*Цвет ползунка*/
+}
+::-webkit-scrollbar {
+  width: 2px; /*Толщина скролла*/
+}

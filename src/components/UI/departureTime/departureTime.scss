@@ -1,0 +1,49 @@
+@import "../../../styles/app.scss";
+
+.departure {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  flex: 1 1 auto;
+  padding-bottom: 15px;
+  gap: 10px;
+  @media (min-width: 475px) {
+    flex-wrap: nowrap;
+    gap: 2px;
+  }
+  &__wrapper {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    height: 100%;
+  }
+  &__inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  &__times-block {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    height: 40px;
+    overflow: auto;
+    width: 100%;
+    padding: 0 5px;
+    z-index: 100000;
+    transition: all ease-in-out 0.2s;
+  }
+  &__open {
+    position: absolute;
+    overflow: visible;
+    height: fit-content;
+    background: $white;
+    padding: 0 10px 10px;
+    border-right: 1px solid $dark50;
+    border-bottom: 1px solid $dark50;
+    border-left: 1px solid $dark50;
+    border-radius: 0 0 5px 5px;
+  }
+}

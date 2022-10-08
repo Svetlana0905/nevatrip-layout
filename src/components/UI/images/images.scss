@@ -1,0 +1,36 @@
+@import "../../../styles/app.scss";
+.image-card {
+  display: block;
+  max-height: 369px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 13px;
+  @media (min-width: 725px) {
+    border-radius: 13px 0 0 13px;
+  }
+  &__label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 45px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    // background-color: $blue;
+    // color: $white;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+}
+.yellow-bg {
+  background-color: $yellowButton;
+  color: $white;
+}
+.violet-bg {
+  background-color: $violet;
+  color: $white;
+}

@@ -1,0 +1,52 @@
+@import "../../styles/app.scss";
+.card {
+  max-width: 1106px;
+  width: 100%;
+  gap: 58px;
+  padding: 20px 10px;
+  @media (min-width: 725px) {
+    padding-top: 70px;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 0.5px solid $borderColor;
+    border-radius: 15px;
+    @media (min-width: 850px) {
+      flex-direction: row;
+    }
+  }
+  &__subtitle {
+    margin-bottom: 15px;
+    @media (min-width: 725px) {
+      margin-bottom: 5px;
+    }
+  }
+  &__trip-duration {
+    position: relative;
+    margin-bottom: 12px;
+    padding: 0 0 0 20px;
+    &::before {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 16px;
+      height: 16px;
+      top: 3px;
+      left: 0;
+      background: url("../../assets/clock-circular-outline.svg") no-repeat;
+    }
+  }
+  &__content-column {
+    max-width: 632px;
+    padding: 13px 10px 10px;
+    width: 100%;
+    @media (min-width: 725px) {
+      padding: 13px 36px 16px 23px;
+    }
+  }
+  &__list {
+    margin-bottom: 14px;
+  }
+}
