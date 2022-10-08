@@ -13,7 +13,7 @@ export const CardsData = [
       "Обзорная экскурсия по рекам и каналам с остановками Hop on Hop Off 2020",
     tripDuration: "1 час 15 минут",
     price: 900,
-    pierPrice: "1200 ₽ на причале",
+    pierPrice: "1200",
     link: "#",
     description: [
       {
@@ -39,7 +39,7 @@ export const CardsData = [
       "Обзорная экскурсия по рекам и каналам с остановками Hop on Hop Off 2020",
     tripDuration: "2 часа",
     price: 900,
-    pierPrice: "1200 ₽ на причале",
+    pierPrice: "1200",
     description: [
       {
         id: 1,

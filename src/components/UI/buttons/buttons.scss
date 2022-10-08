@@ -2,11 +2,11 @@
 
 .time-btn {
   display: inline-block;
-  height: 32px;
+  height: 40px;
   padding: 4px 13px;
   margin-bottom: 0;
   white-space: nowrap;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   text-align: center;
   vertical-align: middle;
@@ -23,6 +23,11 @@
   &:hover {
     background-color: $blueButtonFocus;
     border-color: #e8b705;
+  }
+  @media (min-width: 725px) {
+    height: 32px;
+    padding: 4px 13px;
+    font-size: 14px;
   }
 }
 .hidden {
