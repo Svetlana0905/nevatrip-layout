@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nevatrip-layout/static/css/main.d729b567.css",
-    "main.js": "/nevatrip-layout/static/js/main.9a0acad4.js",
+    "main.css": "/nevatrip-layout/static/css/main.09eeb4eb.css",
+    "main.js": "/nevatrip-layout/static/js/main.e7e5b9fd.js",
     "static/media/slide4.jpg": "/nevatrip-layout/static/media/slide4.319cec5ce3c14debc561.jpg",
     "static/media/slide2.jpg": "/nevatrip-layout/static/media/slide2.063dfaadc9e0d5bb162a.jpg",
     "static/media/slide1.jpg": "/nevatrip-layout/static/media/slide1.15c425f1be6779270901.jpg",
@@ -10,11 +10,11 @@
     "static/media/ruble.svg": "/nevatrip-layout/static/media/ruble.201f898b24d67ce111a6db2dd51ae92c.svg",
     "index.html": "/nevatrip-layout/index.html",
     "static/media/check-mark.svg": "/nevatrip-layout/static/media/check-mark.6d16d90648cbf6da1db4.svg",
-    "main.d729b567.css.map": "/nevatrip-layout/static/css/main.d729b567.css.map",
-    "main.9a0acad4.js.map": "/nevatrip-layout/static/js/main.9a0acad4.js.map"
+    "main.09eeb4eb.css.map": "/nevatrip-layout/static/css/main.09eeb4eb.css.map",
+    "main.e7e5b9fd.js.map": "/nevatrip-layout/static/js/main.e7e5b9fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.d729b567.css",
-    "static/js/main.9a0acad4.js"
+    "static/css/main.09eeb4eb.css",
+    "static/js/main.e7e5b9fd.js"
   ]
 }
