@@ -22,7 +22,6 @@ ul li {
 
 picture {
   position: relative;
-  height: 100%;
 }
 body {
   font-family: "Open Sans";
@@ -81,14 +80,10 @@ body {
     transform: rotate(360deg);
   }
 }
-::-webkit-scrollbar-track {
-  background-color: $blue; /*Цвет скролла*/
-}
+
 ::-webkit-scrollbar-thumb {
-  width: 2px;
-  border-radius: 2px; /*Закругление ползунка*/
-  background-color: $yellowButton; /*Цвет ползунка*/
+  width: 0px;
 }
 ::-webkit-scrollbar {
-  width: 2px; /*Толщина скролла*/
+  width: 0px; /*Толщина скролла*/
 }
