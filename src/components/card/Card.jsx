@@ -7,7 +7,7 @@ import { ImageCard } from "../UI/images/Images";
 
 export const Card = () => {
   return (
-    <div className="card flex-column">
+    <section className="card flex-column">
       {CardsData.map((item) => (
         <div key={item.id} className="card__item">
           <ImageCard
@@ -27,6 +27,6 @@ export const Card = () => {
           </div>
         </div>
       ))}
-    </div>
+    </section>
   );
 };
